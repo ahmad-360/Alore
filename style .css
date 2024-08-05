@@ -1,0 +1,781 @@
+/* color palette for this project 
+Black ; #0B0909
+Ebony ; #44444C
+Gray  ; #8C8C8C
+Pewter; #D6D6D6
+BRand :Aloré
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Cinzel Decorative', serif;
+
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+
+a:active{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+  
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#D6D6D6 ;
+    box-shadow: #212125 10px;
+    z-index: 9999;
+    width: 100%;
+    position: fixed;
+}
+
+/* logo text */
+.swa{
+    display: flex;
+    align-items: center;
+
+}
+.swa a{
+    font-size: 25px;
+    color: #44444C;
+}
+
+.swa a:active{
+    color: #0B0909;
+}
+
+.logo{
+    float: left;
+    width: 60px;
+    background-color: #D6D6D6;
+    font-weight: 3000;
+    margin: 10px;
+
+}
+/* Links header */
+.links{
+    display: flex;
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.links a:hover{
+     font-weight: 600;
+}
+
+.links a{
+    padding-left: 10px;
+    color: #212125;
+
+}
+
+.links i{
+    color: #44444C;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.links i:hover{
+    transform: scale(1.3);
+    color: #44444C;
+}
+
+
+/* Main section banner */
+.banner{
+    display:flex;
+    width: 100%;
+    background:url(images/banner/banners.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/* Main section text */
+.text{
+    margin-top: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+.text h2{
+    color: #353539;
+    margin-left: 40px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.text h1{
+    font-size: 60px;
+    color: #0B0909;
+}
+
+ 
+.text h3{
+       color: #212125;
+}
+
+.text a{
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 20px;
+    border:20px #212125 ; 
+    color: #ffff;
+    font-weight: 600;
+    background-color: #212125;
+    border-radius: 1px;
+}
+.text a:hover{
+    box-shadow: inset  0 -0.6em 0 -0.35em #0B0909 2px;
+    background-color: #8C8C8C ;
+    color: #0B0909;
+}
+
+
+/* Sponsors */
+
+.sponsors{
+ 
+    background-color: #ffffff;
+}
+
+.sponsors h1 {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.img img{
+    width: 200px;
+  
+    color: #212125;
+    filter: grayscale(100%);
+}
+
+.img img:hover{
+    filter: grayscale(0%);
+    filter: saturate(100%);
+    filter: brightness(100%);
+ 
+}
+
+ 
+
+ /*     Add  */
+
+.Add{
+    width: 100%;
+    display: flex;
+    height: 80vh;
+
+ }
+
+.cards{
+    display: flex;
+
+    
+}
+
+.card1 a:active{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+.card1{
+    align-items: center;
+    background: url("images/Products/Watch12.jpg") no-repeat ;
+    background-position: center;
+    background-size: 100% ;
+    z-index: 0; 
+    
+}
+
+ 
+
+
+.card1:hover {
+    filter:brightness(70%);
+    /* filter: brightness(90%); */
+    transition:0.3s ease ;
+
+}
+ 
+.card1:hover a{
+    filter:brightness(100%);
+    background-color: #ffffff;
+    transition:0.3s ease ;
+
+    
+    transform: scale(1.3);
+ }
+
+ 
+
+.card1:hover h1{
+    filter: none;
+    z-index: 1;
+    filter: drop-shadow(100%);
+
+    color: #ffffff;
+    transition:0.3s ease ;
+    
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+  
+
+
+  
+
+
+
+ 
+
+.card1 a:hover{
+    filter: opacity(100%);
+    
+
+    color: white;
+    background-color: #212125;
+}
+
+ 
+
+
+.card1 h1{
+    padding-top: 150px;
+    position: relative;
+    z-index: 1;
+    filter: brightness(100%);
+    padding: 150px 10px 30px 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.card1 a{
+    text-align: center;
+    margin: 190px 10px 30px 30px;
+    background-color: #8C8C8C;
+    padding: 20px;
+    font-weight: 600;
+    color: #0B0909 ;
+}
+
+/* Card 2 aka parfumw */
+
+.card2{
+    align-items: center;
+    background: url("images/Products/Parfume22.jpg") no-repeat ;
+    background-position: center;
+    background-size: 100% ;
+
+    
+}
+
+.card2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+
+    filter:brightness(80%);
+    transition:0.3s ease ;
+    /* filter: brightness(90%); */
+}
+.card2:hover a{
+    background-color: rgba(0, 0, 0, 0.3);
+
+    filter:brightness(80%);
+    transition:0.3s ease ;
+    /* filter: brightness(90%); */
+}
+
+.card2:hover a{
+    filter:brightness(100%);
+    background-color: #D6D6D6;
+    transition:0.3s ease ;
+
+ }
+
+ .card2:hover h1{
+    filter: brightness(200%);
+    color: #ffffff;
+    transition:0.3s ease ;
+    
+}
+  
+
+ 
+.card2 a:hover{
+    filter: opacity(100%);
+
+    color: white;
+    background-color: #212125;
+}
+
+
+
+
+.card2 h1{
+    padding-top: 150px;
+    filter: brightness(100%);
+    padding: 150px 40px 30px 30px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.card2 a{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 190px 10px 30px 40px;
+    background-color: #8C8C8C;
+    padding: 20px;
+    font-weight: 600;
+    color: #0B0909 ;
+}
+
+.card3{
+    align-items: center;
+    background: url("images/Products/shoe33.jpg") no-repeat ;
+    background-position: center;
+    background-size: 100% ;
+     
+}
+
+.card3:hover h1{
+    color: #ffffff;
+}
+
+.card3:hover {
+    background: url("images/Products/sho22.jpg") no-repeat ;
+    background-position: center;
+    background-size: 100% ;
+    align-items: center;
+
+
+
+    /* filter: brightness(90%); */
+}
+
+.card3 a:hover{
+    opacity: 100%;
+
+    color: #44444C;
+    background-color: #0B0909;
+}
+
+
+
+
+.card3 h1{
+    padding-top: 150px;
+    filter: brightness(100%);
+    padding: 150px 10px 30px 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.card3 a{
+    text-align: center;
+    margin: 190px 10px 30px 30px;
+    background-color: #8C8C8C;
+    padding: 20px;
+    font-weight: 600;
+    color: #0B0909 ;
+}
+
+
+.card3:hover a{
+    filter:brightness(80%);
+    background-color: #D6D6D6;
+    transition:0.3s ease ;
+
+ }
+
+ .card3:hover h1{
+    filter: brightness(200%);
+    color: #ffffff;
+    transition:0.3s ease ;
+    
+}
+  
+
+
+
+.card3 a:hover{
+    filter: opacity(100%);
+
+    color: white;
+    background-color: #212125;
+}
+
+.card3 a{
+    text-align: center;
+    margin: 190px 10px 30px 30px;
+    background-color: #8C8C8C;
+    padding: 20px;
+    font-weight: 600;
+    color: #0B0909 ;
+}
+
+ /* Featured Section al3zawi  */
+
+.ft{
+     width: 100%;
+     padding: 10px 0px;
+     background-color: #0B0909;
+  
+
+}
+
+.ft h1{
+    text-decoration: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #D6D6D6;
+}
+
+.hi{
+    padding: 30px 0px;
+    background-color: #0B0909;
+}
+
+.hi h3{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.pros{
+    display: flex;
+    background-color: #0B0909;
+    
+}
+.star{
+    width: 250px;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.pros   h2{
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.pros h3{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+
+.pros a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: #D6D6D6;
+    background-color: #0B0909;
+    padding: 15px;
+    opacity: 0;  
+    transition: opacity 0.5s;  
+    pointer-events: none;  
+    margin-bottom: 30px;
+    
+}
+
+
+
+.s:active{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.bg{
+    background-position: center;
+    background-size: 100% ;
+    width: 100%;
+ 
+}
+
+
+.pro1:hover .bg{
+    filter:brightness(60%);
+    transition: 0.5s ease;
+}
+ 
+.pro1{
+    margin-right: 20px;
+    
+ }
+
+.pro1:hover a {
+    display: block; 
+    opacity: 1;  
+    pointer-events: auto;  
+    background-color: #44444C;
+}    
+
+.pro1:not(:hover) a {
+    opacity: 0;  
+}    
+ 
+#pro1{
+    margin-left: 20px;
+    
+}
+.pros a:hover{
+    background-color: #D6D6D6;
+    color: #0B0909;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+
+}
+
+
+/* Parfumes Section  */
+
+.Parfumes{
+    width: 100%;
+    
+}
+
+.sa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #0B0909;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: 700;
+    padding: 40px 0px;
+    text-align: center  ;
+}
+
+
+.Par1 img{
+    box-shadow:  16px 16px 16px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+
+    
+}
+
+.Pars{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    gap: 40px;
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap ;
+    
+    justify-content: center;
+}
+
+.Pars img{
+    filter: grayscale(100%);
+    
+}
+
+.Par1  h2{
+    color: #212125;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;  
+    text-align: center;  
+}
+
+.Par1 h3{
+    color: #212125;
+    text-align: center;
+     font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+ }
+.Par1 a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: #D6D6D6;
+    background-color: #0B0909;
+    padding: 15px;
+    
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    
+}
+
+
+.Par1:hover a {
+    display: block; 
+    opacity: 1;  
+    pointer-events: auto;  
+    background-color: #212125;
+}    
+
+.Par1 a:hover{
+    background-color: #D6D6D6;
+    color: #0B0909;
+
+}
+
+.Par1:hover img{
+    filter:brightness(1000%);
+    filter: opacity(90%);
+    
+}
+
+
+/* Watches Section abana */
+
+#Wat{
+    background-color: #0B0909;
+    
+}
+
+#wa{
+    background-color: #0B0909;
+    color:#D6D6D6;
+    
+}
+
+#Wat img{
+    box-shadow:  8px 10px 16px rgba(223, 223, 223, 0.3); /* Add shadow effect */
+
+}
+
+#Wat1 h2, h3{
+    color: #ffffff;
+}
+#Wat1  h3{
+    color: #ffffff;
+}
+
+
+/* Shoes Section abana */
+#sho{
+    background-color: #212125;
+}
+
+#sho h2{
+    color: #D6D6D6;
+}
+#sho h3{
+    color: #D6D6D6;
+}
+
+#sh{
+    background-color: #212125;
+    color: #ffffff;
+}
+
+/* Footer al3zawi */
+.sup{
+    padding: 30px;
+    background-color: #D6D6D6;
+    display: flex;
+    gap: 50px;
+}
+
+/* logo */
+.lg img{
+    width: 200px;
+}
+
+.lgg{
+    display: flex;
+
+}
+
+
+.lgg h1{
+    display: flex;
+    padding-left: 20px;
+    font-size: 55px;
+    align-items: center;
+}
+.lg p{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    font-weight: 700;
+
+}
+
+/* other */
+.ftt1{
+    display: block;
+    
+}
+
+.ftt1 a{
+    color: #0B0909;
+}
+
+.ftt1 h1{
+    margin-bottom: 20px;
+
+}
+
+
+
+.ftt1 a{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.ftt h2{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* copyright asat */
+
+.cop{
+    padding: 20px 10px;
+    background-color: #0B0909;
+    color: #D6D6D6;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.cop h1{
+    font-size: 25px;
+}
+.Birthday{
+    margin-left:auto ;
+}
+
